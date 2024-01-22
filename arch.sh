@@ -36,7 +36,7 @@ mkdir /mnt/boot
 mount -t vfat "${EFI}" /mnt/boot/
 
 echo "--------------------------------------"
-echo "-- INSTALLING Walsh Linux BASE on Main Drive       --"
+echo "-- INSTALLING Arch Linux BASE on Main Drive       --"
 echo "--------------------------------------"
 pacstrap /mnt base base-devel --noconfirm --needed
 
